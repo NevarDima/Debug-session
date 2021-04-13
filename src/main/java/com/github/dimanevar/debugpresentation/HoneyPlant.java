@@ -12,7 +12,7 @@ public class HoneyPlant {
     }
 
     public double retrieveNectar(double nectar) {
-        if (nectar == 0) {
+        if (nectarCapacity == 0) {
             return 0;
         }
         nectarCapacity -= nectar;
